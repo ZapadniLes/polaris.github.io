@@ -146,6 +146,18 @@ a{
         font-size: 3.5vw;
     }
 
+    .pole h2{
+      font-size: 5.5vw;
+      margin-right: 25%;
+    }
+    .pole p{
+      font-size: 4vw;
+      margin-right:25% ;
+    }
+    .dokumentace{
+      width: 25%;
+    }
+
   }
 
 @-webkit-keyframes Animation1 {
