@@ -3,6 +3,12 @@
     src: url(fonts/Oswald-VariableFont_wght.ttf);
 }
 
+html{
+  scroll-behavior: smooth;
+
+
+}
+
 body{
     margin:0;
     background: linear-gradient(270deg, #ff8a00, #3e0266);
@@ -76,10 +82,11 @@ a{
     width: 90%;
     height: 90%;
     margin-left: 5%;
-    margin-top: 1.3%;
+    margin-top: 0%;
     padding-bottom: 10%;
     margin-bottom: 5%;
 }
+
 
 
 .dokumentace{
@@ -87,7 +94,6 @@ a{
   width: 20%;
   margin-left: 0%;
   background-color: rgba(0, 0, 0, 0.616);
-  margin-top: 5%;
   text-align: center;
   float: right;
 
@@ -99,6 +105,7 @@ a{
   top: 10%;
   right:5%;
   float: right;
+  margin-top: 8.5%;
 
 }
 
@@ -112,7 +119,6 @@ a{
   color: white;
   margin-left: 5%;
   text-align: center;
-  margin-top: 5%;
   font-size: 3vw;
   margin-right: 20%
 }
