@@ -14,6 +14,36 @@ body{
     font-family: Oswald;
 }
 
+footer{
+  margin: 0;
+
+}
+.foot{
+  background-color: rgba(0, 0, 0, 0.616);
+  width: 90%;
+  margin: 5%;
+  height: 5vw;
+  
+
+}
+
+.foot img{
+  height: auto;
+  width: 5%;
+  float: left;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.foot p{
+  color: white;
+  padding-top: 1%;
+  padding-right: 3%;
+  text-align: right;
+  font-size: 2vw;
+}
+
+
 a{
 
     text-decoration: none;
@@ -121,6 +151,27 @@ h2{
 
     h2{
       font-size: 4.5vw;
+    }
+
+    .foot{
+      height: 10vw;
+
+    }
+
+    .foot img{
+      height: auto;
+      width: 10%;
+      float: left;
+      margin-left: 3%;
+      margin-top: 1%;
+    }
+    
+    .foot p{
+      color: white;
+      padding-top: 1%;
+      padding-right: 3%;
+      text-align: right;
+      font-size: 4vw;
     }
 
   }
