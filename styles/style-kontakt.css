@@ -74,10 +74,11 @@ a{
 .pole{
     background-color: rgba(0, 0, 0, 0.616);
     width: 90%;
-    height: 60vw;
+    height: 90%;
     margin-bottom: 10%;
     margin-left: 5%;
     margin-top: 1.3%;
+    padding-bottom: 10%;
 
 
 }
@@ -95,12 +96,11 @@ a{
 .pole p{
   font-size: 2.5vw;
   color: white;
+  text-align: center;
 }
 
 .kontakt{
-
-  margin-right: 5%;
-  margin-left: 2%;
+  text-align: center;
 
 }
 
@@ -113,18 +113,17 @@ h2{
 
 .adresa p{
   margin-top: -4%;
- margin-left: 10%;
 }
 .adresa{
   margin-top: -3.5vw;
 }
 
-.adresa-t{
-  margin-right: 0;
-  z-index: 100;
-  margin-bottom: -1.5vw;
-
+.obrazky{
+  justify-content: center;
+ align-items: center;
+ display: flex;
 }
+
   
   @media (max-width: 768px) {
     /* Styl pro mobilní zařízení */
