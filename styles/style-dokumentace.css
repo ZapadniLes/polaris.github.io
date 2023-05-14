@@ -171,6 +171,10 @@ a{
     /* Styl pro mobilní zařízení */
   
     #banner img {
+      width: 100%;
+    }
+
+    #banner a{
       width: 15%;
     }
     #banner h1{

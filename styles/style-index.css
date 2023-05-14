@@ -230,8 +230,13 @@ a{
     /* Styl pro mobilní zařízení */
   
     #banner img {
+      width: 100%;
+    }
+
+    #banner a{
       width: 15%;
     }
+
     #banner h1{
         font-size: 5.3vw;
       }

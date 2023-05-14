@@ -71,7 +71,7 @@ a{
     height: auto;
     padding: 0;
   }
-  
+
   #banner h1{
     color: rgb(255, 255, 255);
     font-family: Oswald;
@@ -136,6 +136,10 @@ a{
     /* Styl pro mobilní zařízení */
   
     #banner img {
+      width: 100%;
+    }
+
+    #banner a{
       width: 15%;
     }
     #banner h1{
