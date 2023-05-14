@@ -60,10 +60,16 @@ a{
   }
   
   #banner img {
-    width: 7%;
+    width: 100%;
     height: auto;
     float: left;
     margin: 0px;
+  }
+
+  #banner a{
+    width: 7%;
+    height: auto;
+    padding: 0;
   }
 
   #banner h1{
