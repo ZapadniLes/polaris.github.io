@@ -71,7 +71,7 @@ a{
     padding: 0;
   }
 
-  #banner h1{
+  #banner p{
     color: rgb(255, 255, 255);
     font-family: Oswald;
     font-size: 2.5vw;
@@ -139,8 +139,8 @@ a{
 
 }
 
-h2{
-  font-size: 3.5vw;
+h1{
+  font-size: 4vw;
   color: white;
   text-align: center;
 
@@ -148,9 +148,6 @@ h2{
 
 .adresa p{
   margin-top: -4%;
-}
-.adresa{
-  margin-top: -3.5vw;
 }
 
 .obrazky{
@@ -170,8 +167,14 @@ h2{
     #banner a{
       width: 15%;
     }
+
+    .adresa{
+      justify-content: center;
+      align-items: center;
+      display: block;
+    }
     
-    #banner h1{
+    #banner p{
         font-size: 5.3vw;
       }
     nav a{
@@ -180,11 +183,11 @@ h2{
     }
 
     .pole p{
-      font-size: 3.5vw;
+      font-size: 4vw;
 
     }
-    h2{
-      font-size: 4.5vw;
+    h1{
+      font-size: 8vw;
 
     }
 

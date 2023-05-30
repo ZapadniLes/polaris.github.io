@@ -72,7 +72,7 @@ a{
     padding: 0;
   }
 
-  #banner h1{
+  #banner p{
     color: rgb(255, 255, 255);
     font-family: Oswald;
     font-size: 2.5vw;
@@ -124,22 +124,26 @@ a{
   margin-top: 1.3%;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 5%;
   color: white;
   font-size: 1.7vw;
 
 
 }
 
-h2{
+h1{
   color: white;
-  font-size: 3.5vw;
+  font-size: 4vw;
   text-align: center;
 }
   
   @media (max-width: 768px) {
     /* Styl pro mobilní zařízení */
   
+
+    h1{
+      font-size: 8vw;
+
+    }
     #banner img {
       width: 100%;
     }
@@ -147,7 +151,7 @@ h2{
     #banner a{
       width: 15%;
     }
-    #banner h1{
+    #banner p{
         font-size: 5.3vw;
       }
     nav a{
@@ -159,7 +163,7 @@ h2{
 
     }
 
-    h2{
+    h1{
       font-size: 4.5vw;
     }
 
